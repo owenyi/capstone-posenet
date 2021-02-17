@@ -1,8 +1,14 @@
 fun main() {
     println("직각이등변삼각형")
-    val a = Position(0, 0)
-    val b = Position(1, 0)
-    val c = Position(1, 1)
+    val a = Position()
+    a.x = 0
+    a.y = 0
+    val b = Position()
+    b.x = 1
+    b.y = 0
+    val c = Position()
+    c.x = 1
+    c.y = 1
 
     println(getAngle(a, b, c)) // 90             c
     println(getAngle(a, c, b)) // 45          .  .
@@ -12,9 +18,15 @@ fun main() {
     println(getAngle(c, b, a)) // 90  a . . . .  b
 
     println("한 직선 위의 점들")
-    val d = Position(0, 0)
-    val e = Position(1, 1)
-    val f = Position(2, 2)
+    val d = Position()
+    d.x = 0
+    d.y = 0
+    val e = Position()
+    e.x = 1
+    e.y = 1
+    val f = Position()
+    f.x = 2
+    f.y = 2
 
     println(getAngle(d, e, f)) // 180
     println(getAngle(d, f, e)) // 0            f
@@ -36,5 +48,3 @@ fun getAngle(a: Position, b: Position, c: Position): Double {
 
     return angle
 }
-
-class Position (var x: Int, var y: Int)
