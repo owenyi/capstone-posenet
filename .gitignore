@@ -13,6 +13,7 @@
 out/
 /tmp
 workspace.xml
+uiDesigner.xml
 *.versionsBackup
 /idea/testData/debugger/tinyApp/classes*
 /jps-plugin/testData/kannotator
