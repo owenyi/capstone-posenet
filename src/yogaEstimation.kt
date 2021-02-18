@@ -103,16 +103,16 @@ var errorRateRIGHT_KNEE = 100
 var errorRateLEFT_KNEE = 100
 
 if (imageChecks[6] and imageChecks[8] and imageChecks[10] and videoChecks[6] and videoChecks[8] and videoChecks[10]) {
-    errorRateRIGHT_ELBOW = round((abs(imageAngleRIGHT_ELBOW - videoAngleRIGHT_ELBOW)) / imageAngleRIGHT_ELBOW * 100, 1)
+    errorRateRIGHT_ELBOW = round((abs(imageAngleRIGHT_ELBOW - videoAngleRIGHT_ELBOW)) / imageAngleRIGHT_ELBOW * 100) * 10 / 10
 }
 if (imageChecks[5] and imageChecks[7] and imageChecks[9] and videoChecks[5] and videoChecks[7] and videoChecks[9]) {
-    errorRateLEFT_ELBOW = round((abs(imageAngleLEFT_ELBOW - videoAngleLEFT_ELBOW)) / imageAngleLEFT_ELBOW * 100, 1)
+    errorRateLEFT_ELBOW = round((abs(imageAngleLEFT_ELBOW - videoAngleLEFT_ELBOW)) / imageAngleLEFT_ELBOW * 100) * 10 / 10
 }
 if (imageChecks[12] and imageChecks[14] and imageChecks[16] and videoChecks[12] and videoChecks[14] and videoChecks[16]) {
-    errorRateRIGHT_KNEE = round((abs(imageAngleRIGHT_KNEE - videoAngleRIGHT_KNEE)) / imageAngleRIGHT_KNEE * 100, 1)
+    errorRateRIGHT_KNEE = round((abs(imageAngleRIGHT_KNEE - videoAngleRIGHT_KNEE)) / imageAngleRIGHT_KNEE * 100) * 10 / 10
 }
 if (imageChecks[11] and imageChecks[13] and imageChecks[15] and videoChecks[11] and videoChecks[13] and videoChecks[15]) {
-    errorRateLEFT_KNEE = round((abs(imageAngleLEFT_KNEE - videoAngleLEFT_KNEE)) / imageAngleLEFT_KNEE * 100, 1)
+    errorRateLEFT_KNEE = round((abs(imageAngleLEFT_KNEE - videoAngleLEFT_KNEE)) / imageAngleLEFT_KNEE * 100) * 10 / 10
 }
 
 // correct?
