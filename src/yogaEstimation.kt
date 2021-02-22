@@ -70,13 +70,13 @@ if (imageChecks[6] and imageChecks[8] and imageChecks[10]) {
     imageAngleRIGHT_ELBOW = getAngle(imagePositions[6], imagePositions[8], imagePositions[10])
 }
 if (imageChecks[5] and imageChecks[7] and imageChecks[9]) {
-    imageAngleRIGHT_ELBOW = getAngle(imagePositions[5], imagePositions[7], imagePositions[9])
+    imageAngleLEFT_ELBOW = getAngle(imagePositions[5], imagePositions[7], imagePositions[9])
 }
 if (imageChecks[12] and imageChecks[14] and imageChecks[16]) {
-    imageAngleRIGHT_ELBOW = getAngle(imagePositions[12], imagePositions[14], imagePositions[16])
+    imageAngleRIGHT_KNEE = getAngle(imagePositions[12], imagePositions[14], imagePositions[16])
 }
 if (imageChecks[11] and imageChecks[13] and imageChecks[15]) {
-    imageAngleRIGHT_ELBOW = getAngle(imagePositions[11], imagePositions[13], imagePositions[15])
+    imageAngleLEFT_KNEE = getAngle(imagePositions[11], imagePositions[13], imagePositions[15])
 }
 
 var videoAngleRIGHT_ELBOW = 0
@@ -88,13 +88,13 @@ if (videoChecks[6] and videoChecks[8] and videoChecks[10]) {
     videoAngleRIGHT_ELBOW = getAngle(videoPositions[6], videoPositions[8], videoPositions[10])
 }
 if (videoChecks[5] and videoChecks[7] and videoChecks[9]) {
-    videoAngleRIGHT_ELBOW = getAngle(videoPositions[5], videoPositions[7], videoPositions[9])
+    videoAngleLEFT_ELBOW = getAngle(videoPositions[5], videoPositions[7], videoPositions[9])
 }
 if (videoChecks[12] and videoChecks[14] and videoChecks[16]) {
-    videoAngleRIGHT_ELBOW = getAngle(videoPositions[12], videoPositions[14], videoPositions[16])
+    videoAngleRIGHT_KNEE = getAngle(videoPositions[12], videoPositions[14], videoPositions[16])
 }
 if (videoChecks[11] and videoChecks[13] and videoChecks[15]) {
-    videoAngleRIGHT_ELBOW = getAngle(videoPositions[11], videoPositions[13], videoPositions[15])
+    videoAngleLEFT_KNEE = getAngle(videoPositions[11], videoPositions[13], videoPositions[15])
 }
 
 var errorRateRIGHT_ELBOW = 100
