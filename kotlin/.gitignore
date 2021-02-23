@@ -1,7 +1,3 @@
-.DS_Store
-.idea/shelf
-/confluence/target
-/dependencies/repo
 /android.tests.dependencies
 /dependencies/android.tests.dependencies
 /dist
@@ -63,3 +59,4 @@ local.properties
 buildSrcTmp/
 distTmp/
 outTmp/
+
